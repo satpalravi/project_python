@@ -52,7 +52,5 @@ def connect():
         
 
 
-if __name__ == '__ma
-
-in__':
+if __name__ == '__main__':
 	connect()
