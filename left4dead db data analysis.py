@@ -34,8 +34,7 @@ def connect():
 		data = cur.fetchone()
 		print(data)
 		
-   
-	# close the communication with the PostgreSQL
+# close the communication with the PostgreSQL
 		cur.close()
 	except (Exception, psycopg2.DatabaseError) as error:
 		print(error)
@@ -44,7 +43,7 @@ def connect():
 			conn.close()
 			print("")
 			print('Database connection closed.')
-        
+
 
 
 if __name__ == '__main__':
